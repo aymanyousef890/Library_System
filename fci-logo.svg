@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="شعار كلية الحاسبات والمعلومات - جامعة الزقازيق">
+  <!-- Emblem: Faculty of Computers & Informatics, Zagazig University -->
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#22406f"/>
+      <stop offset="1" stop-color="#132441"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e8c06a"/>
+      <stop offset="1" stop-color="#c99a3a"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Outer ring -->
+  <circle cx="60" cy="60" r="58" fill="url(#bg)"/>
+  <circle cx="60" cy="60" r="58" fill="none" stroke="url(#gold)" stroke-width="3"/>
+  <circle cx="60" cy="60" r="50" fill="none" stroke="#d8a741" stroke-width="1" opacity="0.55"/>
+
+  <!-- Chip / processor (informatics) -->
+  <g stroke="#d8a741" stroke-width="2" stroke-linecap="round">
+    <rect x="47" y="26" width="26" height="20" rx="4" fill="#1a3054"/>
+    <rect x="53" y="32" width="14" height="8" rx="2" fill="#d8a741" stroke="none"/>
+    <!-- chip pins -->
+    <line x1="42" y1="31" x2="47" y2="31"/>
+    <line x1="42" y1="41" x2="47" y2="41"/>
+    <line x1="73" y1="31" x2="78" y2="31"/>
+    <line x1="73" y1="41" x2="78" y2="41"/>
+    <line x1="53" y1="21" x2="53" y2="26"/>
+    <line x1="60" y1="19" x2="60" y2="26"/>
+    <line x1="67" y1="21" x2="67" y2="26"/>
+  </g>
+
+  <!-- Circuit traces connecting chip to book -->
+  <g stroke="#d8a741" stroke-width="1.6" fill="none" opacity="0.85">
+    <path d="M52 46 v8"/>
+    <path d="M60 46 v10"/>
+    <path d="M68 46 v8"/>
+    <circle cx="52" cy="56" r="2" fill="#d8a741" stroke="none"/>
+    <circle cx="60" cy="58" r="2" fill="#d8a741" stroke="none"/>
+    <circle cx="68" cy="56" r="2" fill="#d8a741" stroke="none"/>
+  </g>
+
+  <!-- Open book (library / knowledge) -->
+  <g>
+    <path d="M60 66 C 52 60, 38 59, 30 62 L 30 90 C 38 87, 52 88, 60 94 Z" fill="url(#gold)"/>
+    <path d="M60 66 C 68 60, 82 59, 90 62 L 90 90 C 82 87, 68 88, 60 94 Z" fill="#e6c887"/>
+    <path d="M60 66 L 60 94" stroke="#8f6a1e" stroke-width="1.6"/>
+    <!-- page lines -->
+    <g stroke="#8f6a1e" stroke-width="1.1" opacity="0.6">
+      <path d="M36 68.5 C 43 66.8, 50 67.3, 55 69.5"/>
+      <path d="M36 74.5 C 43 72.8, 50 73.3, 55 75.5"/>
+      <path d="M36 80.5 C 43 78.8, 50 79.3, 55 81.5"/>
+      <path d="M65 69.5 C 70 67.3, 77 66.8, 84 68.5"/>
+      <path d="M65 75.5 C 70 73.3, 77 72.8, 84 74.5"/>
+      <path d="M65 81.5 C 70 79.3, 77 78.8, 84 80.5"/>
+    </g>
+  </g>
+
+  <!-- Laurel dots -->
+  <g fill="#d8a741" opacity="0.9">
+    <circle cx="22" cy="60" r="1.8"/>
+    <circle cx="98" cy="60" r="1.8"/>
+    <circle cx="28" cy="42" r="1.4"/>
+    <circle cx="92" cy="42" r="1.4"/>
+    <circle cx="28" cy="78" r="1.4"/>
+    <circle cx="92" cy="78" r="1.4"/>
+  </g>
+</svg>
